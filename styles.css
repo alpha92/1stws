@@ -31,6 +31,11 @@ section {
 	margin: 20px;
 }
 
+.responsive-image {
+	max-width: 100%;
+	height: auto;
+}
+
 form {
 	display: flex;
 	flex-direction: column;
