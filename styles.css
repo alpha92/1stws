@@ -36,6 +36,10 @@ section {
 	height: auto;
 }
 
+.google-map  {
+	max-width: 100%;
+}
+
 #contactForm {
 	max-width: 100%;
 }
