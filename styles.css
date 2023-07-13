@@ -36,21 +36,13 @@ section {
 	height: auto;
 }
 
-form {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	width: 300px;
-	
+.google-map  {
+	max-width: 640px;
 }
 
-form button {
-	width: 80px;
-	height: 30px;
-	margin-top: 10px;
-	align-self: center;
+#contactForm {
+	max-width: 100%;
 }
-
 
 
 footer {
