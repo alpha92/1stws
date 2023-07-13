@@ -20,6 +20,10 @@ nav li {
 	margin-right: 10px;
 }
 
+nav li:hover {
+  font-weight: bold;
+}
+
 nav a {
 	color: white;
 	text-decoration: none;
@@ -31,19 +35,47 @@ section {
 	margin: 20px;
 }
 
+#welcome {
+	text-align: center;
+}
+
 .responsive-image {
 	max-width: 100%;
 	height: auto;
 }
 
+.about {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout by default */
+
+  /* Two-column layout for screens wider than 768px */
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 80px;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+tr:nth-child(odd) {
+  background-color: gainsboro;
+}
+
+
 .google-map  {
-	max-width: 640px;
+	height: 83%;	
 }
 
 #contactForm {
 	max-width: 100%;
 }
-
 
 footer {
 	background-color: black;
